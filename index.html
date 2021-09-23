@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SNOWISM</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/59bd51d600.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/js/menu.js"></script>
+  </head>
+
+  <body>
+    <script>
+      AOS.init();
+    </script>
+    <header>
+      <div class="topnav" id="myTopnav">
+        <a href=""> <img class="logo" src="./img/logo.png" alt="" /></a>
+
+        <ul>
+          <li>
+            <a
+              href="javascript:void(0);"
+              class="menu-icon"
+              onClick="myFunction()"
+            >
+              <i class="fas fa-align-right"></i>
+            </a>
+          </li>
+          <li>
+            <a href="">ABOUT</a>
+          </li>
+          <li><a href="">PORTFOLIOS</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="main">
+          <div class="overlay"></div>
+          <div class="content center">
+            <p>HELLO, IT'S ME</p>
+            <h1>S T A C E Y</h1>
+            <p>UI/UX DESIGNER - DEVELOPER</p>
+            <p>based in Auckland, NZ</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <h2 class="center">Here's What I'm Doing</h2>
+
+          <div class="row">
+            <div class="col-4 col-s-12 skills center">
+              <div class="icon border-gradient border-gradient-purple">
+                <div data-aos="fade-up" aos-duration="1500">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+              </div>
+              <h3>UI/UX Design</h3>
+            </div>
+            <div class="col-4 col-s-12 skills center">
+              <div class="icon border-gradient border-gradient-purple">
+                <div data-aos="fade-up" aos-duration="1500">
+                  <i class="fas fa-code"></i>
+                </div>
+              </div>
+              <h3>Development</h3>
+            </div>
+            <div class="col-4 col-s-12 skills">
+              <div class="icon border-gradient border-gradient-purple">
+                <div data-aos="fade-up" aos-duration="1500">
+                  <i class="fas fa-paint-brush"></i>
+                </div>
+              </div>
+              <h3 class="center">Graphic Design</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container">
+          <h2 class="center">My Portfolios</h2>
+          <div class="row">
+            <div data-aos="flip-up" aos-duration="3000" class="works hb">
+              <div class="works-overlay">
+                <div class="works-title">Accommodation App</div>
+              </div>
+            </div>
+            <div data-aos="flip-up" aos-duration="4000" class="works ms">
+              <div class="works-overlay">
+                <div class="works-title">Food ordering App</div>
+              </div>
+            </div>
+            <div data-aos="flip-up" aos-duration="5000" class="works ppk">
+              <div class="works-overlay">
+                <div class="works-title">Party planner (WordPress)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contactme">
+        <div class="container">
+          <h2 class="center">Contact Me</h2>
+
+          <div class="row contact-details">
+            <div class="col5 col-s-12">
+              <i class="far fa-comments"></i>
+              <p>+64 21 040 2064</p>
+            </div>
+
+            <div class="col5 col-s-12">
+              <i class="far fa-envelope"></i>
+              <p>snowism23@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="form-wrapper col-7 col-s-10">
+            <form action="https://formsubmit.co/snowism23@gmail.com"
+            method="POST">
+              <input
+                name="name"
+                type="text"
+                class="feedback-input"
+                placeholder="Name"
+              />
+              <input
+                name="email"
+                type="text"
+                class="feedback-input"
+                placeholder="Email"
+              />
+              <textarea
+                name="text"
+                class="feedback-input"
+                placeholder="Comment"
+              ></textarea>
+              <input type="submit" value="SUBMIT" />
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>

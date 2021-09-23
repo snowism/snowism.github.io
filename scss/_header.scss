@@ -1,0 +1,47 @@
+.topnav {
+  height: 70px;
+  width: 100vw;
+  // max-width: 960px;
+  padding: 16px;
+  // margin-right: auto;
+  // margin-left: auto;
+}
+
+ul {
+  // display: inline-block;
+  float: right;
+  margin-right: 24px;
+}
+
+li {
+  display: inline-block;
+  list-style: none;
+  padding: 12px;
+  margin: auto 16px;
+
+}
+
+.logo {
+  width: auto;
+  height: 50px;
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 12px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: $black;
+}
+
+a:visited {
+  color: $black;
+}
+
+li:not(:first-child):hover {
+  border-bottom: 3px solid black;
+}

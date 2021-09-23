@@ -1,0 +1,54 @@
+
+.hb {
+    background-image: url(/img/logo_hb.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ms {
+    background-image: url(/img/logo_ms.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ppk {
+    background-image: url(/img/logo_ppk.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.portfolio-wrapper {
+    padding-top: 120px;
+    height: 100vh;
+    
+}
+
+
+.col-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 36px;
+
+    img {
+        margin: 12px;
+    }
+}
+
+.pf-title-text {
+    
+    padding: 6px; 
+    
+    p {
+        padding: 6px;
+        font-weight: 300;
+    }
+}
+.pf-title-img {
+       width: 100%;
+       height: auto;
+    }
+    
