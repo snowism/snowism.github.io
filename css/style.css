@@ -349,9 +349,24 @@ button a:hover {
   background-repeat: no-repeat;
 }
 
+.zap {
+  background-image: url(/img/logo_zap.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .portfolio-wrapper {
   padding-top: 120px;
   height: 100vh;
+}
+
+.works-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .col-wrapper {
