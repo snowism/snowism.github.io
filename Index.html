@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="home">
+      <nav id="nav">
+        <div class="nav-center">
+          <div class="nav-header">
+            <img src="/logo.png" alt="logo" class="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-align-right"></i>
+            </button>
+          </div>
+
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#home" class="scroll-link">HOME</a></li>
+              <li>
+                <a href="#about" class="scroll-link">ABOUT</a>
+              </li>
+              <li>
+                <a href="#portfolio" class="scroll-link">PORTFOLIO</a>
+              </li>
+              <li>
+                <a href="#contact" class="scroll-link">contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h4>Hello, it's me</h4>
+          <h1>STACEY</h1>
+          <p>Front-end Developer - UI/UX Designer<br>
+          based in Christchurch, New Zealand</p>
+        </div>
+      </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+      <div class="title">
+        <h2>Here's What I'm Doing</h2>
+      </div>
+
+      <div class="skill-container">
+        <div class="skill">
+          <div class="icon border-gradient border-gradient-purple">
+            <div data-aos="fade-up" aos-duration="1500">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+          </div>
+          <h3>UI/UX Design</h3>
+        </div>
+        <div class="skill">
+          <div class="icon border-gradient border-gradient-purple">
+            <div data-aos="fade-up" aos-duration="1500">
+              <i class="fas fa-code"></i>
+            </div>
+          </div>
+          <h3>Development</h3>
+        </div>
+        <div class="skill">
+          <div class="icon border-gradient border-gradient-purple">
+            <div data-aos="fade-up" aos-duration="1500">
+              <i class="fas fa-paint-brush"></i>
+            </div>
+          </div>
+          <h3 class="center">Graphic Design</h3>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="section">
+      <div class="title">
+        <h2>My Portfolios</h2>
+      </div>
+
+      <div class="pofol-container">
+        
+      
+          <div OnClick="window.open('https://exhibition.yoobeestudent.net/')" style="cursor:pointer" class="pofol ybex" >
+          <div class="pofol-overlay">
+          </div>
+          <div class="pofol-title">
+           <h4>YOOBEE Online Exhibitioin</h4>
+           </div>
+          </div>
+   
+          
+        
+    
+        <div onClick="location.href=`https://snowism.github.io/works/hellohb.html`" style="cursor:pointer"class="pofol hb">
+          <div class="pofol-overlay">
+            
+          </div>
+          <div class="pofol-title">
+            <h4>Accommodation Booking App</h4>
+          </div>
+        </div>
+
+        <div onClick="location.href=`https://snowism.github.io/works/milse.html`" style="cursor:pointer"class="pofol milse">
+          <div class="pofol-overlay">
+            
+          </div>
+          <div class="pofol-title">
+           <h4>Food ordering App</h4>
+          </div>
+        </div>
+
+        <div onClick="location.href=`https://snowism.github.io/works/pumpkin.html`" style="cursor:pointer"class="pofol ppk">
+          <div class="pofol-overlay">
+            
+          </div>
+          <div class="pofol-title">
+           <h4>WordPress</h4>
+          </div>
+        </div>
+
+        <div onClick="location.href=`https://snowism.github.io/works/zap.html`" style="cursor:pointer"class="pofol zap">
+          <div class="pofol-overlay">
+            
+          </div>
+          <div class="pofol-title">
+           <h4>C2C (React)</h4>
+          </div>
+        </div>
+        <div class="pofol">
+          <div class="pofol-title">
+            <h4>JavaScript challenges</h4>
+            <p>coming soon</p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="title">
+        <h2>Contact me</h2>
+      </div>
+
+
+        <div class="contact-container">
+          <div class="contact">
+            <div class="icon">
+             
+              <i class="far fa-comments"></i>
+              </div>
+          
+            <h4 class="center">+64 021 040 2064</h3>
+          </div>
+
+          <div class="contact">
+            <div class="icon">
+             
+              <i class="far fa-envelope"></i>
+              </div>
+          
+            <h4 class="center">snowism23@gmail.com</h3>
+          </div>
+
+        </div>
+          <div class="form-container">
+            <form action="https://formsubmit.co/snowism23@gmail.com"
+            method="POST">
+              <input
+                name="name"
+                type="text"
+                class="feedback-input"
+                placeholder="Name"
+              />
+              <input
+                name="email"
+                type="text"
+                class="feedback-input"
+                placeholder="Email"
+              />
+              <textarea
+                name="text"
+                class="feedback-input"
+                placeholder="Comment"
+              ></textarea>
+              <input type="submit" value="SUBMIT" />
+            </form>
+          </div>
+
+
+       
+      
+
+        
+    </section>
+
+    <footer>
+      <p>
+        copyright &copy; SNOWISM
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+  </body>
+
+  <script src="/app.js"></script>
+</html>
